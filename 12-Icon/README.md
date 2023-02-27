@@ -7,3 +7,5 @@ Göreceğimiz Iconlar şunlar:
 2)Boostrap Icon
 
 3)Google Icon
+
+Ben en çok google icon'u tercih edeceğimi düşünüyorum. Çok daha basit çok daha pratik.
