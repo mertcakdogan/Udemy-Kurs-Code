@@ -15,3 +15,8 @@ Serif fontlarında bazı harflerin sonlarında ufak çizgiler vardır.
 3) Monospace (Courier New / Lucida Console)
 
 Tüm monospace karakterler aynı genişliğe sahiptirler. (monospace = eşit aralık)
+
+1em = 16px
+
+vw = viewport ile ilgili. 10vw demek tarayıcının %10'unu kullan anlamına gelir.
+
