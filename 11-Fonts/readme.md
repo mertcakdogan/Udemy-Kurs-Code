@@ -1,0 +1,1 @@
+Bu derste Font konusunu işleyeceğiz.
