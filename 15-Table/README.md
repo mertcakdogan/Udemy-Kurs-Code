@@ -1,3 +1,3 @@
 CSS TABLE dersine başladım.
 
-Bu dersimizde tablolara stil vermeyi işleyeceğiz
+Bu dersimizde tablolara stil vermeyi işledim. 
