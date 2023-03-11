@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Uygulama 2</title>
+
+    <style>
+        p, #mert{
+            font-size: 21px;
+            margin: auto;
+            background-color: aquamarine;
+            border: 1px solid red;
+            padding: 15px;
+            text-align: center;
+        }
+        #mert{
+            display: none;
+        }
+        p{
+            cursor: pointer;
+        }
+        p:hover{
+            background-color: red;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <p onclick="goster()">Paneli Göster/ <p onclick="gizle()">Gizle</p></p>
+    <div id="mert">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aliquam ab illum a dolorem culpa vel aliquid vero iure debitis velit non est optio, error, repellendus illo doloremque, ullam tenetur harum. Quis, beatae aspernatur autem numquam, quidem velit tenetur dignissimos eum ullam porro corrupti laboriosam repellat ipsum in aperiam architecto, quod explicabo consectetur cumque neque suscipit cupiditate iusto itaque? Consequuntur laudantium, sint cupiditate doloribus porro harum commodi odit ex fugit tenetur neque error culpa aspernatur quod. Commodi voluptate est fugit ipsa saepe recusandae nesciunt, sed blanditiis inventore velit aliquam repellat distinctio qui soluta voluptas minus deleniti, delectus iusto expedita nobis ex! Voluptate consectetur minus amet ducimus nam, inventore optio obcaecati fuga velit et laboriosam quasi eaque saepe quisquam, praesentium quo. Esse totam iusto ab, perspiciatis sint veniam quaerat architecto adipisci maxime corporis alias explicabo reprehenderit tempore repellat vitae in corrupti, quasi accusamus placeat? Obcaecati labore ratione unde omnis quasi voluptatibus.</div>
+
+<script>
+    function goster(){
+        document.getElementById("mert").style.display = "block";
+    }
+    function gizle(){
+        document.getElementById("mert").style.display = "none";
+    }
+</script>
+
+</body>
+</html>
+
+<!-- Aynı div içerisinde Onclick eventini birden fazla kullanabilir miyim ?
+    
+-->
