@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        .box {
+            display: flex;
+            background-color: blueviolet;
+            /*flex-direction: row;
+            flex-wrap: wrap-reverse;*/
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: space-around;
+        }
+        .box > div {
+            padding: 20px;
+            background-color: gray;
+            margin: 10px;
+            width: 25%;
+            height: 100px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div style="order: 3;flex-grow: 1">1</div>
+        <div style="order:4;flex-grow: 2">2</div>
+        <div style="order:2;flex-grow: 3">3</div>
+        <div style ="order:1;flex-grow: 4">4</div> @*
+         <div>2</div>
+         <div>3</div>
+         <div>1</div>
+         <div>2</div>
+         <div>3</div>
+         <div>1</div>
+         <div>2</div>
+         <div>3</div>
+         <div>1</div>
+         <div>2</div>
+         <div>3</div>*@
+    </div>
+
+</body>
+</html>
